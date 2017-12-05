@@ -5,5 +5,5 @@ test:
   override:
     - npm test -- --coverage
   post:
-    - npm install -g codeclimate-test-reporter
-    - codeclimate-test-reporter < coverage/lcov.info
+    - npm install -g test
+    - test < coverage/lcov.info
