@@ -6,4 +6,4 @@ test:
     - npm test -- --coverage
   post:
     - npm install -g test
-    - test < coverage/lcov.info
+
