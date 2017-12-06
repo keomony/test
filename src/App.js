@@ -1,20 +1,12 @@
-import React, {Component} from 'react';
-import './App.css';
-import Summary from './Summary';
+import React from 'react'
+import Header from './Header'
+import Main from './Main'
 
-class App extends Component {
-    render() {
-        return (
-            <div className="App">
-                <header className="App-header">
-                    <h1 className="App-title">Hello World!</h1>
-                </header>
-                <section className="Summary-Option">
-                    <p> Click here to go to your Summary page. <Summary value={Summary}/></p>
-                </section>
-            </div>
-        );
-    }
-}
+const App = () => (
+    <div>
+        <Header />
+        <Main />
+    </div>
+)
 
-export default App;
+export default App
